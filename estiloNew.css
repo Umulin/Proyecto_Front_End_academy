@@ -1,0 +1,12 @@
+*{
+    
+    
+}
+body{
+    background-color: rgb(35,66,112);
+    font-family: 'Golos Text', sans-serif;
+    color: whitesmoke
+}
+#nombre{
+    font-size: 2000;
+}
