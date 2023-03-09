@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
-<!--estilo.css
+<!--estilo.css functionNew.js
 
 -->
 <head>
@@ -9,18 +9,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="D:\Documentos\Santi\Cursos\Front_End_Academy\Proyecto Final\estilo.css" >
+    <link rel="stylesheet" type="text/css" href="D:\Documentos\Santi\Cursos\Front_End_Academy\Proyecto Final\estiloNew.css" >
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Golos+Text&display=swap" rel="stylesheet">
+
     <title>Curriculum en HTML</title>
 </head>
 <body>
+ 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <p></p>
     <div class="container-fluid text-center">
         <div class="row align-items-start">
-          <div class="col text-center" style="height: 1000px;">
+          <div class="col text-center">
             <img src="https://media.licdn.com/dms/image/C4E03AQFeBILPvyURNg/profile-displayphoto-shrink_200_200/0/1572821166069?e=1683763200&v=beta&t=Wzg-H7OlA1EoqGKrrbprSigSbqrNbYCblefbYcbP7QI"
     alt="Foto de Perfil" 
     class="img-fluid"
@@ -31,7 +33,225 @@
           </div>
           
         </div>
+    </div>
+
+
+    <p></p>
+    <div class="container">   <!--Contenedor de Datos de Contacto-->
+      <div class="row text-center">
+        <div class="col-3 col-ms-1">
+          <p class="titulo_contacto">Telefono:</p>          
+        </div>
+        <div class="col-4 col-ms-2">
+          <p class="dato_contacto"><a href="https://wa.me/5493515938286" target="_blank">3515938286</a></p>
+        </div>
+        <div class="col-1 col-ms-1">
+          
+        </div>
+        <div class="col-2 col-ms-1">
+          <p class="titulo_contacto">Edad:</p>
+        </div>
+        <div class="col-1 col-ms-1">
+          <p class="dato_contacto">23</p>
+        </div>
+        <div class="col-3 col-ms-2">
+          <p class="titulo_contacto">Linkedin:    </p>
+        </div>
+        <div class="col-9 col-ms-3">
+          <p class="dato_contacto"><a href="https://linkedin.com/in/santiago-viera-olsen/" target="_blank">    linkedin.com/in/santiago-viera-olsen/</a></p>
+        </div>
+        <div class="col-3 col-ms-1">
+          <p class="titulo_contacto">Correo:</p>
+        </div>
+        <div class="col-9 col-ms-2">
+          <p class="dato_contacto">santiagoviera1999@gmail.com</p>
+        </div>
       </div>
+    </div>
+      <p></p>
+
+
+      <div class="container-fluid"><!--Contenedor de Botones On/Off-->      
+        <div class="row text-center">
+          <div class="col-10 col-md-auto ">
+            <h2>Formación Académica</h2>
+          </div>
+          <div class="col-1 ">
+            <label class="switch" id>
+              <input type="checkbox" id="tlgFormacion">
+              <span class="slider round"></span>
+            </label>
+          </div>
+         
+          <div class="col-10 col-md-auto ">
+            <h2>Experiencia Laboral</h2>
+          </div>
+          <div class="col-1 ">
+            <label class="switch" id>
+              <input type="checkbox" id="tglExperiencia">
+              <span class="slider round"></span>
+            </label>
+          </div>
+
+          <div class="col-10 col-md-auto ">
+            <h2>Otros Conocimientos</h2>
+          </div>
+          <div class="col-1 ">
+            <label class="switch" id>
+              <input type="checkbox" id="tglOtros">
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+
+      <p></p><p></p>
+
+      <section><!--Parte de los datos-->
+      <div class="containerA" id="ctnFormacion" >
+        <h3>Formación Académica</h3>
+
+        <div class="row">
+
+          <div class="col col-md-6">
+
+            <h4>Curso Data Science</h4>
+            <ul class="descripcion">
+              <li>Icaro Asociación Civil. Avalado por la UNC </li>
+              <li>04/07/2021 - 01/02/2022</li>
+              <li>Contenido: Python, Feature Engineering,
+                Aprendizaje supervisado y no Supervisado,
+                Procesamiento de texto, Deploy de Modelos  </li>
+              
+            </ul>
+            
+
+          </div>
+
+          <div class="col col-md-6">
+
+            <h4>Analista de Sistemas</h4>
+            <ul class="descripcion">
+              <li>IES Siglo 21; Rondeau 165, Córdoba, Argentina</li>
+              <li>15/03/2022- actualidad</li>
+              <li> Materias Aprobadas: 12 (doce)</li>
+              <li>Etapas Completadas: 1er  año</li>
+            </ul>
+
+          </div>
+        
+        </div>
+      </div>
+
+      <div class="containerA" id="ctnExperiencia" >
+        <h3>Experiencia Laboral</h3>
+        <div class="row">
+          <div class="col col-md-6">
+            <h4>V-N Global BPO (trabajo actual)</h4>
+            <ul class="descripcion">
+              <li>La Rioja 441 5 piso, Córdoba, Argentina</li>
+              <li>05/12/2020 - Actualidad</li>
+              <li>Cargo: Analista de Soporte técnico </li>
+              <li>Actividad: Asistencia remota de asesores. 
+                Verificación de conexión, de credenciales y
+                de configuraciones de proxy e IP. Solución
+                a errores de programas y de hardware.</li>
+              
+              
+            </ul>
+            
+
+          </div>
+
+          <div class="col col-md-6">
+            <h4>Grupo Tessino</h4>
+            <ul class="descripcion">
+              <li>Estudio de Arquitectura e Ingeniería</li>
+              <li>Loc. 3, Av. Padre Humberto Mariani 50, Villa Allende, Córdoba</li>
+              <li>24/06/2016 - 02/09/2016</li>
+              <li>Cargo: Pasante</li>
+              <li>Actividad: Digitalización de Planos,
+                Relevamientos, Realizacion de Tramites
+                Municipales.</li>
+
+              
+              
+            </ul>
+            
+
+          </div>
+        
+        </div>
+            
+      </div>
+
+
+
+      <div class="containerA" id="ctnOtros" >
+        <h3>Formación Académica</h3>
+
+        <div class="row">
+
+          <div class="col col-md-6">
+
+            <h4>Herramientas de Programación </h4>
+            <ul class="descripcion">
+              <li>Python: Nivel Intermedio:
+                <ul>
+                  <li>Numpy</li>
+                  <li>Pandas</li>
+                  <li>Scikit-learn</li>
+                  <li>Seaborn</li>
+                </ul>
+                
+              </li>
+              <li>Numpy, Pandas, Scikit-learn, Seaborn</li>
+              <li>Contenido: Python, Feature Engineering,
+                Aprendizaje supervisado y no Supervisado,
+                Procesamiento de texto, Deploy de Modelos  </li>
+              
+            </ul>
+            
+
+          </div>
+
+          <div class="col col-md-6">
+
+            <h4>Inglés</h4>
+            <ul class="descripcion">
+              <li>Certificado por: New Ways, Villa Allende, Córdoba; St. John’s School, Córdoba,Cordoba.</li>
+              <li>Nivel Intermedio. Lectura y Conversación fluida.</li>
+
+            </ul>
+
+          </div>
+
+          <div class="col col-md-6">
+
+            <h4>Herramientas de Diseño</h4>
+            <ul class="descripcion">
+              <li>Autocad:
+                <ul>
+                  <li>Intermedio- Avanzado de Modelado 2D</li>
+                  <li>Básico de Modelado 3D</li>
+                </ul>
+
+              </li>
+              <li>SolidWorks: Básico</li>
+              <li>CorelDRAW: Básico</li>
+              <li>Adobe Photoshop: Nivel Básico</li>
+
+            </ul>
+
+          </div>
+        
+        </div>
+      </div>
+      </section>
+
+      <script src="D:\Documentos\Santi\Cursos\Front_End_Academy\Proyecto Final\functionsNew.js">   </script>
+      
     
 
 </body>
